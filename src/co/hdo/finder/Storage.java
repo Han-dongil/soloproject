@@ -131,7 +131,6 @@ public class Storage extends DAO
 		}
 		return false;
 	}
-
 	public void inputSite(String user) //사이트 정보등록
 	{
 		String sql ="insert into SITEINFO (sitename,siteadress,username,userid,pw,memo) \r\n" + 
@@ -344,6 +343,7 @@ public class Storage extends DAO
 			e.printStackTrace();
 		}		
 	}
+
 
 
 
