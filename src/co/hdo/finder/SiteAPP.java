@@ -57,6 +57,7 @@ public class SiteAPP  implements Num
 				case SELECT_3:search.searchTable(); search.webSearch();break;
 				case SELECT_4:
 				{
+					search.searchTable();
 					int choice3;
 					while(true)
 					{
